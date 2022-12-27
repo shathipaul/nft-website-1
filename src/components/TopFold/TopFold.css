@@ -1,0 +1,38 @@
+.topfold {
+    height: 92vh;
+    overflow: hidden;
+}
+
+.tf-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.tf-btns {
+    display: flex;
+}
+.tf-btn-secondary{
+    margin-left: 30px;
+}
+
+.tf-states {
+    display: flex;
+    padding: 48px 0px 0px;
+}
+
+.tf-states-info {
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.tf-states-count {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tf-states-label {
+    font-size: 14px;
+    font-weight: 600;
+}
