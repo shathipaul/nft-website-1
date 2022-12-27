@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Headers = () => {
     return (
-        <div className='header absolute-center cursor-pointer'>
+        <div className='header absolute-center'>
             <span className='heading-gradient'>NFT Website</span>
         </div>
     );

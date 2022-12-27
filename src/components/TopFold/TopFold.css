@@ -10,6 +10,10 @@
     padding-right: 48px;
 }
 
+.tf-left h2 {
+    font-size: 42px;
+}
+
 .tf-btns {
     display: flex;
 }
@@ -35,4 +39,34 @@
 .tf-states-label {
     font-size: 14px;
     font-weight: 600;
+}
+
+.tf-right {
+    display: flex;
+    flex: 1;
+    position: relative;
+    margin-top: 60px;
+}
+
+.tf-diamond {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.tf-diamond-items {
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    margin: 5px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+.tf-diamond-items img {
+    height: 250px;
+    object-fit: contain;
+    display: block;
 }
